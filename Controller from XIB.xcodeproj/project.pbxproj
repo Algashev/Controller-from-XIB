@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FF367E872351F13F006C2685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF367E862351F13F006C2685 /* AppDelegate.swift */; };
-		FF367E892351F13F006C2685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF367E882351F13F006C2685 /* SceneDelegate.swift */; };
 		FF367E8B2351F13F006C2685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF367E8A2351F13F006C2685 /* ViewController.swift */; };
-		FF367E8E2351F13F006C2685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF367E8C2351F13F006C2685 /* Main.storyboard */; };
 		FF367E902351F141006C2685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF367E8F2351F141006C2685 /* Assets.xcassets */; };
 		FF367E932351F141006C2685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF367E912351F141006C2685 /* LaunchScreen.storyboard */; };
+		FF367E9B2351F311006C2685 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF367E9A2351F311006C2685 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF367E832351F13F006C2685 /* Controller from XIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controller from XIB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF367E862351F13F006C2685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF367E882351F13F006C2685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF367E8A2351F13F006C2685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF367E8D2351F13F006C2685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF367E8F2351F141006C2685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF367E922351F141006C2685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF367E942351F141006C2685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF367E9A2351F311006C2685 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				FF367E862351F13F006C2685 /* AppDelegate.swift */,
-				FF367E882351F13F006C2685 /* SceneDelegate.swift */,
 				FF367E8A2351F13F006C2685 /* ViewController.swift */,
-				FF367E8C2351F13F006C2685 /* Main.storyboard */,
+				FF367E9A2351F311006C2685 /* ViewController.xib */,
 				FF367E8F2351F141006C2685 /* Assets.xcassets */,
 				FF367E912351F141006C2685 /* LaunchScreen.storyboard */,
 				FF367E942351F141006C2685 /* Info.plist */,
@@ -126,8 +123,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF367E932351F141006C2685 /* LaunchScreen.storyboard in Resources */,
+				FF367E9B2351F311006C2685 /* ViewController.xib in Resources */,
 				FF367E902351F141006C2685 /* Assets.xcassets in Resources */,
-				FF367E8E2351F13F006C2685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +137,12 @@
 			files = (
 				FF367E8B2351F13F006C2685 /* ViewController.swift in Sources */,
 				FF367E872351F13F006C2685 /* AppDelegate.swift in Sources */,
-				FF367E892351F13F006C2685 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF367E8C2351F13F006C2685 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF367E8D2351F13F006C2685 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF367E912351F141006C2685 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ2J8S5B39;
 				INFOPLIST_FILE = "Controller from XIB/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ2J8S5B39;
 				INFOPLIST_FILE = "Controller from XIB/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
